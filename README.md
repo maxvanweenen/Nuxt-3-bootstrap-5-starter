@@ -1,13 +1,21 @@
-# Nuxt 3 Minimal Starter
+# Nuxt 3 Bootstrap 5 starter with customizable variables configured
 
-We recommend to look at the [documentation](https://v3.nuxtjs.org).
+A optimized and barebones starterkit that removes a lot of the early setup of a new bootstrap project.
+
+Included:
+- Nuxt 3
+- Bootstrap 5 optimized installation and example variables overwritten + colors added to the scss theme (see main.scss)
+- Autoprefixer
+- Fiber
+- PostCSS
+- Sass
 
 ## Setup
 
 Make sure to install the dependencies
 
 ```bash
-yarn install
+npm install
 ```
 
 ## Development
@@ -15,7 +23,7 @@ yarn install
 Start the development server on http://localhost:3000
 
 ```bash
-yarn dev
+npm dev
 ```
 
 ## Production
@@ -23,7 +31,7 @@ yarn dev
 Build the application for production:
 
 ```bash
-yarn build
+npm build
 ```
 
 Checkout the [deployment documentation](https://v3.nuxtjs.org/docs/deployment).
