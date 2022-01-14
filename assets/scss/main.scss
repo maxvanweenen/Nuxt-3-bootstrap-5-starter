@@ -20,9 +20,6 @@ $utilities-colors: map-merge($utilities-colors, $theme-colors-rgb);
 $utilities-text-colors: map-loop($utilities-colors, rgba-css-var, "$key", "text");
 $utilities-bg-colors: map-loop($utilities-colors, rgba-css-var, "$key", "bg");
 
-// Load a custom font
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;1,400;1,600&display=swap');
-
 // Overwrite bootstrap sass variables (check _variables for all options)
 $enable-negative-margins: true;
 $navbar-light-color: $dark;
@@ -34,4 +31,7 @@ $link-color: $theme1;
 
 // Finally load bootstrap
 @import "node_modules/bootstrap/scss/bootstrap";
+
+// Load a custom font
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;1,400;1,600&display=swap');
 
