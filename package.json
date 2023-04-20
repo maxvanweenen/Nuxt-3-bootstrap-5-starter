@@ -1,4 +1,6 @@
 {
+  "name": "nuxt-3-bootstrap-5-starter",
+  "license": "MIT",
   "private": true,
   "scripts": {
     "dev": "nuxi dev",
