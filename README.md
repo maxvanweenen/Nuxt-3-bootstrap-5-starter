@@ -35,3 +35,8 @@ npm build
 ```
 
 Checkout the [deployment documentation](https://v3.nuxtjs.org/docs/deployment).
+
+## License
+
+The code in this starter project is licensed under the MIT license. However, please note that any code that you add to this project will not be subject to this license and you are free to choose an appropriate open source license for your own code. Please make sure to update the license file accordingly and include a copy of the license in your project's repository.
+
